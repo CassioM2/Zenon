@@ -1,0 +1,41 @@
+{
+  "name": "zenon",
+  "version": "1.0.0",
+  "description": "Incrivelmente zetanastico!",
+  "main": "Main.js",
+  "dependencies": {
+    "discord.js": "^11.5.0",
+    "dotenv": "^8.0.0",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-binaries": "^4.0.0",
+    "fs": "0.0.1-security",
+    "intl": "^1.2.5",
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.2.2",
+    "mongoose": "^5.5.11",
+    "opusscript": "0.0.6",
+    "pornsearch": "^2.4.3",
+    "random-puppy": "^1.1.0",
+    "simple-youtube-api": "^5.1.1",
+    "snekfetch": "^4.0.4",
+    "transform-props": "^1.0.1",
+    "util": "^0.12.0",
+    "youtube-info": "^1.3.2",
+    "ytdl-core": "^0.29.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CassioM2/Zenon.git"
+  },
+  "author": "Cássio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CassioM2/Zenon/issues"
+  },
+  "homepage": "https://github.com/CassioM2/Zenon#readme"
+}
