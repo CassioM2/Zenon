@@ -4,12 +4,12 @@ const randomPuppy = require('random-puppy');
 const request = require('snekfetch');
 const fs = require("fs");
 
-module.exports = class PornCommand extends Command {
+module.exports = class AsianCommand extends Command {
     constructor(name, client) {
         super(name, client);
 
-        this.name = 'public';
-        this.aliases = ['pbc'];
+        this.name = 'asian';
+        this.aliases = ['ain'];
         this.category = 'Pornôgrafia';
     }
 
@@ -18,23 +18,21 @@ module.exports = class PornCommand extends Command {
         if (!message.channel.nsfw) return message.channel.send(`${Constants.ERRO} \`${message.author.tag}\` utilize apenas em canais **NSFW**.`);
 
         var subreddits = [
-            'naughtyinpublic',
-            'gwpublic',
-            'exposedinpublic',
-            'beachgirls'
+            'AsianHotties',
+            'juicyasians',
+            'asianbabes'
         ]
         var sub = subreddits[Math.round(Math.random() * (subreddits.length - 1))];
-
 
         randomPuppy(sub)
             .then(url => {
                 request.get(url).then(r => {
 
-                    const publicInfo = new ZenonEmbed();
-                    publicInfo.setImage(url);
-                    publicInfo.setFooter(message.author.tag, message.author.avatarURL);
+                    const asianInfo = new ZenonEmbed();
+                    asianInfo.setImage(url);
+                    asianInfo.setFooter(message.author.tag, message.author.avatarURL);
 
-                    message.channel.send(publicInfo);
+                    message.channel.send(asianInfo);
                 })
             })
     }

@@ -15,16 +15,22 @@ module.exports = {
     AUSENTE: '<:ausente:582717875479904295>',
     OCUPADO: '<:ocupado:582717875056541699>',
     TRANSMITINDO: '<:transmitindo:582717875098353678>',
-    ON: '<:on~1:582717875635224586>',
+    ON: '<:onl:582717875635224586>',
     OFF: '<:off:582717875563790346>',
     BOT: '<:bot:582717875480035358>',
     LINE: '<:line:582724694298329098>',
     USUARIOS: '<:usuarios:582725876182024192>',
-    SERVIDORES: '<:servidores:582726163453968384>',
+    SERVIDORES: '<:servidores:583341411265675284>',
     COMANDOS: '<:comandos:582726604032311297>',
     DISCORD: '<:discord:582727256216961077>',
     GITHUB: '<:github:582728634645741569>',
     PLAY: '<:play:582769033536077834>',
     QUEUE: '<:queue:582768930544812043>',
-    SEARCH: '<:search:582771687037206546>'
-}
+    SEARCH: '<:search:582771687037206546>',
+
+    /* LINKS */
+
+    GITHUB_REPOSITORY: 'https://github.com/CassioM2/Zenon',
+    DISCORD_INVITE: 'https://discord.gg/Zc7NwU5',
+    ZENON_INVITE: 'https://discordapp.com/oauth2/authorize?client_id=582668092577021969&scope=bot&permissions=8'
+};

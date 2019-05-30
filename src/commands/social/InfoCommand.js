@@ -13,8 +13,8 @@ module.exports = class Info extends Command {
 
     async run(message, args) {
 
-        const m = await message.channel.send(`${Constants.CARREGANDO} \`${message.author.tag}\` carregando informações...`);
-        const uptime = moment.duration(process.uptime() * 1000).format('d[d], h[h] m[m], s[s], ms[ms]');
+        const m = await message.channel.send(`${Constants.CARREGANDO} \`${message.author.tag}\` reunindo as informações...`);
+        const uptime = moment.duration(process.uptime() * 1000).format('d[d], h[h] m[m], s[s]');
 
         const info = new ZenonEmbed(message.author);
 
@@ -28,9 +28,9 @@ module.exports = class Info extends Command {
             `${Constants.COMANDOS} Comandos **${this.client.commands.size} comandos**.`
         ].join("\n"), false);
         info.addField(`${Constants.LINE} Links **úteis**:`, [
-            `${Constants.BOT} [Meu **convite**](https://discordapp.com/oauth2/authorize?client_id=582668092577021969&scope=bot&permissions=2146958847)`,
-            `${Constants.DISCORD} [Servidor de **suporte**](https://discord.gg/M6PtXBr)`,
-            `${Constants.GITHUB} [Repositório no **github**](https://github.com/CassioM2/Zenon)`
+            `${Constants.BOT} [Meu **convite**](${Constants.ZENON_INVITE})`,
+            `${Constants.DISCORD} [Servidor de **suporte**](${Constants.DISCORD_INVITE})`,
+            `${Constants.GITHUB} [Repositório no **github**](${Constants.GITHUB_REPOSITORY})`
         ].join("\n"), false);
         info.setThumbnail(this.client.user.avatarURL);
 

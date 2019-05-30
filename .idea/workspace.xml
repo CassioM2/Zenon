@@ -2,33 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05674abc-a214-4423-8f69-6582343194b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iniciar.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/commands/developers/BlacklistCommand.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/commands/developers/BlacklistInfoCommand.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/commands/developers/EvalCommand.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/commands/nsfw/4kCommand.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/commands/nsfw/AmateurCommand.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/commands/nsfw/AsianCommand.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/commands/nsfw/CosplayCommand.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/commands/nsfw/GifCommand.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/commands/nsfw/HentaiCommand.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/commands/nsfw/MilfCommand.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/commands/nsfw/PublicCommand.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/commands/nsfw/PussyCommand.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/commands/nsfw/PênisCommand.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/commands/nsfw/SnapchatCommand.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/commands/nsfw/UniformCommand.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/commands/social/InfoCommand.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/listeners/message.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/listeners/ready.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structures/Command.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structures/Constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structures/Utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structures/ZenonEmbed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structures/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/configuration/ConfigCommand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/economy/DailyCommand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/economy/DepositCommand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/utility/UserInfoCommand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/music/structures/queue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zenon.js" beforeDir="false" afterPath="$PROJECT_DIR$/Zenon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/commands/developers/BlacklistCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/developers/BlacklistCommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/commands/developers/BlacklistInfoCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/developers/BlacklistInfoCommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/commands/developers/EvalCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/developers/EvalCommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/commands/nsfw/4kCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/nsfw/4kCommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/commands/nsfw/AmateurCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/nsfw/AmateurCommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/commands/nsfw/AsianCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/nsfw/AsianCommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/commands/nsfw/CosplayCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/nsfw/CosplayCommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/commands/nsfw/GifCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/nsfw/GifCommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/commands/nsfw/HentaiCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/nsfw/HentaiCommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/commands/nsfw/MilfCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/nsfw/MilfCommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/commands/nsfw/PublicCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/nsfw/PublicCommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/commands/nsfw/PussyCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/nsfw/PussyCommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/commands/nsfw/PênisCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/nsfw/PênisCommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/commands/nsfw/SnapchatCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/nsfw/SnapchatCommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/commands/nsfw/UniformCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/nsfw/UniformCommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/commands/social/InfoCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/social/InfoCommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/listeners/message.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/listeners/message.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/listeners/ready.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/listeners/ready.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/registers/DBWrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/registers/DBWrapper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/registers/Repository.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/registers/Repository.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/registers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/registers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/registers/mongo/MongoDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/registers/mongo/MongoDB.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/registers/mongo/MongoRepository.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/registers/mongo/MongoRepository.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/registers/mongo/Schemas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/registers/mongo/Schemas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structures/Constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/structures/Constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structures/Utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/structures/Utils.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,7 +51,7 @@
     <favorites_list name="Zenon" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,6 +64,14 @@
     <findStrings>
       <find>url</find>
       <find>leav</find>
+      <find>prefixo</find>
+      <find>dean</find>
+      <find>{pref}</find>
+      <find>s.title</find>
+      <find>song</find>
+      <find>duracaoT</find>
+      <find>serverQueue</find>
+      <find>duracao</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -74,35 +90,42 @@
         <option value="$PROJECT_DIR$/others/Constants.js" />
         <option value="$PROJECT_DIR$/source/commands/social/info.js" />
         <option value="$PROJECT_DIR$/structures/index.js" />
-        <option value="$PROJECT_DIR$/structures/Utils.js" />
         <option value="$PROJECT_DIR$/source/listeners/message.js" />
         <option value="$PROJECT_DIR$/source/registers/mongo/MongoDB.js" />
         <option value="$PROJECT_DIR$/source/commands/developers/BlacklistInfoCommand.js" />
         <option value="$PROJECT_DIR$/source/commands/developers/BlacklistCommand.js" />
-        <option value="$PROJECT_DIR$/source/registers/mongo/Schemas.js" />
-        <option value="$PROJECT_DIR$/source/commands/social/InfoCommand.js" />
         <option value="$PROJECT_DIR$/source/commands/developers/EvalCommand.js" />
         <option value="$PROJECT_DIR$/source/listeners/ready.js" />
         <option value="$PROJECT_DIR$/structures/Command.js" />
-        <option value="$PROJECT_DIR$/Zenon.js" />
-        <option value="$PROJECT_DIR$/structures/Constants.js" />
-        <option value="$PROJECT_DIR$/source/commands/music/PlayCommand.js" />
         <option value="$PROJECT_DIR$/source/commands/nsfw/PornCommand.js" />
-        <option value="$PROJECT_DIR$/source/commands/nsfw/PussyCommand.js" />
+        <option value="$PROJECT_DIR$/source/commands/nsfw/PênisComman.js" />
+        <option value="$PROJECT_DIR$/source/commands/nsfw/PornHubCommand.js" />
+        <option value="$PROJECT_DIR$/iniciar.bat" />
+        <option value="$PROJECT_DIR$/source/commands/configuration/ConfigCommand.js" />
+        <option value="$PROJECT_DIR$/source/music/structures/queue.js" />
+        <option value="$PROJECT_DIR$/source/commands/music/PlayCommand.js" />
+        <option value="$PROJECT_DIR$/structures/Constants.js" />
+        <option value="$PROJECT_DIR$/source/commands/utility/UserInfoCommand.js" />
+        <option value="$PROJECT_DIR$/structures/Utils.js" />
+        <option value="$PROJECT_DIR$/source/registers/mongo/Schemas.js" />
+        <option value="$PROJECT_DIR$/source/commands/economy/DiárioCommand.js" />
+        <option value="$PROJECT_DIR$/source/commands/economy/DepositarCommand.js" />
+        <option value="$PROJECT_DIR$/source/commands/economy/DailyCommand.js" />
         <option value="$PROJECT_DIR$/source/commands/nsfw/4kCommand.js" />
+        <option value="$PROJECT_DIR$/source/commands/nsfw/AmateurCommand.js" />
+        <option value="$PROJECT_DIR$/source/commands/nsfw/AsianCommand.js" />
+        <option value="$PROJECT_DIR$/source/commands/nsfw/CosplayCommand.js" />
         <option value="$PROJECT_DIR$/source/commands/nsfw/GifCommand.js" />
         <option value="$PROJECT_DIR$/source/commands/nsfw/HentaiCommand.js" />
-        <option value="$PROJECT_DIR$/source/commands/nsfw/CosplayCommand.js" />
-        <option value="$PROJECT_DIR$/source/commands/nsfw/SnapchatCommand.js" />
-        <option value="$PROJECT_DIR$/source/commands/nsfw/PênisComman.js" />
-        <option value="$PROJECT_DIR$/source/commands/nsfw/PênisCommand.js" />
-        <option value="$PROJECT_DIR$/source/commands/nsfw/PornHubCommand.js" />
-        <option value="$PROJECT_DIR$/source/commands/nsfw/AmateurCommand.js" />
-        <option value="$PROJECT_DIR$/source/commands/nsfw/UniformCommand.js" />
-        <option value="$PROJECT_DIR$/source/commands/nsfw/PublicCommand.js" />
         <option value="$PROJECT_DIR$/source/commands/nsfw/MilfCommand.js" />
-        <option value="$PROJECT_DIR$/source/commands/nsfw/AsianCommand.js" />
-        <option value="$PROJECT_DIR$/iniciar.bat" />
+        <option value="$PROJECT_DIR$/source/commands/nsfw/PublicCommand.js" />
+        <option value="$PROJECT_DIR$/source/commands/nsfw/PussyCommand.js" />
+        <option value="$PROJECT_DIR$/source/commands/nsfw/PênisCommand.js" />
+        <option value="$PROJECT_DIR$/source/commands/nsfw/SnapchatCommand.js" />
+        <option value="$PROJECT_DIR$/source/commands/nsfw/UniformCommand.js" />
+        <option value="$PROJECT_DIR$/source/commands/economy/DepositCommand.js" />
+        <option value="$PROJECT_DIR$/source/commands/social/InfoCommand.js" />
+        <option value="$PROJECT_DIR$/Zenon.js" />
       </list>
     </option>
   </component>
@@ -120,6 +143,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -127,14 +151,31 @@
               <item name="Zenon" type="b2602c69:ProjectViewProjectNode" />
               <item name="Zenon" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Zenon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Zenon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Zenon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Zenon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Zenon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Zenon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="commands" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -175,35 +216,40 @@
       <workItem from="1559063188042" duration="10723000" />
       <workItem from="1559080162499" duration="4757000" />
       <workItem from="1559101233777" duration="3463000" />
+      <workItem from="1559147558095" duration="8400000" />
+      <workItem from="1559164730795" duration="2746000" />
+      <workItem from="1559175695180" duration="11675000" />
+      <workItem from="1559231014356" duration="2843000" />
+      <workItem from="1559236864138" duration="359000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39211000" />
+    <option name="totallyTimeSpent" value="65234000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.25520834" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.21949404" />
       <window_info id="Structure" order="1" sideWeight="0.502439" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.502439" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32991454" />
       <window_info anchor="bottom" id="Run" order="5" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.4034188" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.26324788" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.25520834" />
       <window_info id="Structure" order="1" sideWeight="0.502439" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.502439" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -215,7 +261,7 @@
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.29459903" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.26324788" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -226,26 +272,13 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="82" selection-start-column="82" selection-end-column="82" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/registers/DBWrapper.js">
+    <entry file="file://$PROJECT_DIR$/src/registers/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/registers/index.js">
+    <entry file="file://$PROJECT_DIR$/src/registers/Repository.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/registers/Repository.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/registers/mongo/MongoRepository.js">
+    <entry file="file://$PROJECT_DIR$/src/registers/mongo/MongoRepository.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="47" />
@@ -283,13 +316,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/structures/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -304,7 +330,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/registers/mongo/MongoDB.js">
+    <entry file="file://$PROJECT_DIR$/src/registers/mongo/MongoDB.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
@@ -323,42 +349,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/registers/mongo/Schemas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/listeners/message.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structures/Utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="60" lean-forward="true" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/commands/developers/BlacklistInfoCommand.js">
+    <entry file="file://$PROJECT_DIR$/src/commands/developers/BlacklistInfoCommand.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="92" selection-start-line="25" selection-start-column="92" selection-end-line="25" selection-end-column="92" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/listeners/ready.js">
+    <entry file="file://$PROJECT_DIR$/src/listeners/ready.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="100" selection-start-line="11" selection-start-column="100" selection-end-line="11" selection-end-column="100" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/commands/developers/EvalCommand.js">
+    <entry file="file://$PROJECT_DIR$/src/commands/developers/EvalCommand.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
@@ -372,13 +377,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Zenon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/structures/ZenonEmbed.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -386,14 +384,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/structures/Constants.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/commands/music/PlayCommand.js" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -401,108 +391,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/commands/developers/BlacklistCommand.js">
+    <entry file="file://$PROJECT_DIR$/src/commands/developers/BlacklistCommand.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/commands/social/InfoCommand.js">
+    <entry file="file://$PROJECT_DIR$/source/commands/nsfw/PornHubCommand.js" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa6584.26150/Dean-Bot-master/source/Música/play.js" />
+    <entry file="file://$PROJECT_DIR$/src/commands/configuration/ConfigCommand.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        <state relative-caret-position="154">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/commands/nsfw/4kCommand.js">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa6584.10349/Dean-Bot-master/source/Música/play.js" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa6584.36456/Dean-Bot-master/source/Música/queue.js" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa6584.38254/Dean-Bot-master/configuração/queue.js" />
+    <entry file="file://$PROJECT_DIR$/src/music/structures/queue.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        <state relative-caret-position="48">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/commands/nsfw/GifCommand.js">
+    <entry file="file://$PROJECT_DIR$/source/commands/music/PlayCommand.js" />
+    <entry file="file://$PROJECT_DIR$/structures/Constants.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="178">
+          <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/commands/nsfw/HentaiCommand.js">
+    <entry file="file://$PROJECT_DIR$/src/listeners/message.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        <state relative-caret-position="-42">
+          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/commands/nsfw/CosplayCommand.js">
+    <entry file="file://$PROJECT_DIR$/Main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/commands/nsfw/SnapchatCommand.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/commands/nsfw/PênisCommand.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/commands/nsfw/PornHubCommand.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/commands/nsfw/AmateurCommand.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/commands/nsfw/UniformCommand.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/commands/nsfw/PublicCommand.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/commands/nsfw/MilfCommand.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" column="82" selection-start-line="24" selection-start-column="82" selection-end-line="24" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/commands/nsfw/AsianCommand.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/commands/nsfw/PussyCommand.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        <state relative-caret-position="144">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -510,6 +443,139 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structures/Utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commands/utility/UserInfoCommand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="41" column="74" selection-start-line="41" selection-start-column="74" selection-end-line="41" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/registers/mongo/Schemas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commands/economy/DailyCommand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="27" column="158" selection-start-line="27" selection-start-column="158" selection-end-line="27" selection-end-column="158" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commands/nsfw/4kCommand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commands/nsfw/AmateurCommand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commands/nsfw/AsianCommand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commands/nsfw/CosplayCommand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commands/nsfw/GifCommand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commands/nsfw/HentaiCommand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commands/nsfw/MilfCommand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commands/nsfw/PublicCommand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commands/nsfw/PussyCommand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commands/nsfw/PênisCommand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commands/nsfw/SnapchatCommand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commands/nsfw/UniformCommand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commands/economy/DepositCommand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="20" column="153" selection-start-line="20" selection-start-column="153" selection-end-line="20" selection-end-column="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commands/social/InfoCommand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="16" column="93" selection-start-line="16" selection-start-column="93" selection-end-line="16" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zenon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
         </state>
       </provider>
     </entry>

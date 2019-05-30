@@ -14,6 +14,11 @@ module.exports = class Utils {
         return formatter.format(value);
     }
 
+    static formatOthers (val) {
+        moment.locale('pt-BR');
+        return moment(val).format('LLLL');
+    }
+
     static formatDuration (duration) {
         return moment.duration(duration).format('dd:hh:mm:ss', { stopTrim: 'm' })
     }

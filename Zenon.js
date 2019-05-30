@@ -1,6 +1,6 @@
 const { Client, Collection } = require('discord.js');
 const fs = require('fs');
-const { MongoDB } = require('./source/registers');
+const { MongoDB } = require('./src/registers');
 
 module.exports = class Zenon extends Client {
     constructor(options = {}) {
@@ -8,8 +8,8 @@ module.exports = class Zenon extends Client {
 
     this.playerManager = null;
     this.commands = new Collection();
-    this.loadingCommand('./source/commands');
-    this.loadingListener('./source/listeners');
+    this.loadingCommand('./src/commands');
+    this.loadingListener('./src/listeners');
     this.loadingRegister(MongoDB, { useNewUrlParser: true });
     }
 

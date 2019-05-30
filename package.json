@@ -9,6 +9,7 @@
     "ffmpeg": "0.0.4",
     "ffmpeg-binaries": "^4.0.0",
     "fs": "0.0.1-security",
+    "humanize-duration": "^3.18.0",
     "intl": "^1.2.5",
     "moment": "^2.24.0",
     "moment-duration-format": "^2.2.2",

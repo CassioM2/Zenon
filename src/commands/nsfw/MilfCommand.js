@@ -4,7 +4,7 @@ const randomPuppy = require('random-puppy');
 const request = require('snekfetch');
 const fs = require("fs");
 
-module.exports = class PornCommand extends Command {
+module.exports = class MilfCommand extends Command {
     constructor(name, client) {
         super(name, client);
 

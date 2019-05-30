@@ -6,7 +6,10 @@ module.exports = {
         _id: String,
         blacklist: { type: Boolean, default: false },
         reason: { type: String, default: '' },
-        count: { type: Number, default: 0 }
+        count: { type: Number, default: 0 },
+        coins: { type: Number, default: 0 },
+        bank: { type: Number, default: 0 },
+        dailyTime: { type: Number, default: 0 }
     }),
 
     Bot: new Schema({
