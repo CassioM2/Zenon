@@ -24,7 +24,7 @@ module.exports = class RoleInfoCommand extends Command {
         roleInfo.addField(`${Constants.LINE} Informações do cargo **${role.name}**:`, [
             `${Constants.NAME} Nome: **${role.name}**`,
             `${Constants.ID_CARD} ID: **${role.id}**`,
-            `${Constants.USUARIOS} Membros (**${role.members.size}**): **${role.members.map(u => u.user.username).join(', ') ? role.members.map(u => u.user.username).join(', ') : 'Nenhum'}**`,
+            `${Constants.USUARIOS} Membros: ${!role.members.size ? '**Nenhum**' : role.members.size > 5 ? `**${role.members.map(m => m.user.username).slice(0, 5).join(', ')}** entre outros **${role.members.size - 5}**` : `**${role.members.map(m => m.user.username).join(', ')}**`}`,
             `${Constants.CALENDARIO} Criado: **${Utils.formatOthers(role.createdAt)}**`,
             `${Constants.MANAGED} Gerenciável: **${role.managed ? 'Sim' : 'Não'}**`,
             `${Constants.MENTION} Mencionável: **${role.mentionable ? 'Sim' : 'Não'}**`,

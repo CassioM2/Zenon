@@ -20,6 +20,7 @@ module.exports = async function onMessage(message) {
             'command': { value: command }
         })
         if (command) {
+            this.log(`[COMMAND] The user ${message.author.tag} from the server ${message.guild.name} used the command ${command}`);
             command.process(message, args)
         }
     }
