@@ -36,7 +36,7 @@ module.exports = class Zenon extends Client {
 loadingRegister(DBWrapper, options = {}) {
     this.register = new DBWrapper(options)
     this.register.connect()
-        .then(() => console.log('[DATABASE] The connection to the database was granted.'))
+        .then(() => this.log('[DATABASE] The connection to the database was granted.'))
         .catch(e => {
             console.log(e.message)
             this.register = null
