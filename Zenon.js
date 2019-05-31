@@ -43,6 +43,27 @@ loadingRegister(DBWrapper, options = {}) {
         })
 }
 
+
+    /**
+     * Adds a new log entry to the console.
+     * @param {string} message - Log message
+     * @param {...string} [tags] - Tags to identify the log entry
+     */
+    log (...args) {
+        const message = args[0]
+        const tags = args.slice(1).map(t => `[36m[${t}][0m`)
+        console.log(...tags, message + '[0m')
+    }
+
+    /**
+     * Adds a new error log entry to the console.
+     * @param {string} message - Error message
+     */
+    logError (...args) {
+        const tags = args.length > 1 ? args.slice(0, -1).map(t => `[${t}]`) : []
+        console.error('[ErrorLog]', ...tags, args[args.length - 1])
+    }
+
     loadingListener(path) {
       fs.readdirSync(path)
         .forEach(file => {

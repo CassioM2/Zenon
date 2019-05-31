@@ -1,6 +1,6 @@
 module.exports = async function onReady() {
 
-    console.log('[STATUS] Zenon status has been started.');
+    this.log('[STATUS] Zenon status has been started.');
 
     const sleep = time => new Promise(resolve => {
         setTimeout(resolve, time)
