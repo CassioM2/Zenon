@@ -24,9 +24,7 @@ module.exports = class EvalCommand extends Command {
 
             message.channel.send(await this.clean(msg), { code: 'js' })
         } catch (error) {
-
-            message.channel.send(error.message, { code: 'js' })
-                .catch(console.error)
+            message.channel.send(`\`ERROR\` \`\`\`js\n${error.message}\n\`\`\``);
         }
     }
 

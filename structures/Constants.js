@@ -20,17 +20,28 @@ module.exports = {
     BOT: '<:bot:582717875480035358>',
     LINE: '<:line:582724694298329098>',
     USUARIOS: '<:usuarios:582725876182024192>',
-    SERVIDORES: '<:servidores:583341411265675284>',
-    COMANDOS: '<:comandos:582726604032311297>',
+    SERVIDORES: '<:servidores:584082986748870673>',
+    COMANDOS: '<:comandos:584082986916380673>',
     DISCORD: '<:discord:582727256216961077>',
     GITHUB: '<:github:582728634645741569>',
     PLAY: '<:play:582769033536077834>',
     QUEUE: '<:queue:582768930544812043>',
     SEARCH: '<:search:582771687037206546>',
+    CALENDARIO: '<:calendario:584060209257775118>',
+    ID_CARD: '<:idcard:584063163658534933>',
+    NAME: '<:name:584064111759982592>',
+    MANAGED: '<:managed:584077077393965056>',
+    MENTION: '<:mention:584082987415765041>',
+    PERMISSION: '<:permission:584082987239604244>',
+    PAINT: '<:paint:584082987398725639>',
+    POSITION: '<:position:584082987692589057>',
 
     /* LINKS */
 
     GITHUB_REPOSITORY: 'https://github.com/CassioM2/Zenon',
     DISCORD_INVITE: 'https://discord.gg/Zc7NwU5',
-    ZENON_INVITE: 'https://discordapp.com/oauth2/authorize?client_id=582668092577021969&scope=bot&permissions=8'
+    ZENON_INVITE: 'https://discordapp.com/oauth2/authorize?client_id=582668092577021969&scope=bot&permissions=8',
+
+    /* API LINKS */
+    ROLE_API_COLOR: 'https://www.htmlcsscolor.com/preview/128x128/'
 };

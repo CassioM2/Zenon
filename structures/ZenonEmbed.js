@@ -10,7 +10,7 @@ module.exports = class ZenonEmbed extends RichEmbed {
     constructor (user, data = {}) {
         super(data)
         this.setColor('RANDOM').setTimestamp()
-        if (user) this.setFooter(user.tag)
+        if (user) this.setFooter(user.tag, user.avatarURL)
     }
 
     /**
