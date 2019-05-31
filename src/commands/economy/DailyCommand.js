@@ -35,7 +35,7 @@ module.exports = class DailyCommand extends Command {
                 conjunction: ' e ',
                 serialComma: false,
                 round: true,
-                units: ['y', 'mt', 'd', 'h', 'm', 's']
+                units: ['d', 'h', 'm', 's']
             };
 
             message.channel.send(`${Constants.UTILIDADES} **${message.author.username}** você precisa esperar mais **${humanize(restante, humanize_config)}** para receber suas moedas diárias novamente.`);
