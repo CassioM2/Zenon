@@ -14,6 +14,11 @@ module.exports = class Utils {
         return formatter.format(value);
     }
 
+    static frowNow (val) {
+        moment.locale('pt-BR');
+        return moment(val).fromNow();
+    }
+
     static formatOthers (val) {
         moment.locale('pt-BR');
         return moment(val).format('LLLL');

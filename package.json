@@ -17,6 +17,7 @@
     "opusscript": "0.0.6",
     "pornsearch": "^2.4.3",
     "random-puppy": "^1.1.0",
+    "request": "^2.88.0",
     "simple-youtube-api": "^5.1.1",
     "snekfetch": "^4.0.4",
     "transform-props": "^1.0.1",
